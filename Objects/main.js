@@ -19,8 +19,8 @@ let object1 = {
 };
 
 const object2 = Object.create(object1);
-object1.name = "Ryan";
-object1.age = 24;
+object2.name = "Ryan";
+object2.age = 24;
 
 object2.printName();
 
